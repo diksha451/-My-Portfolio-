@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diksha – Data Analyst Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+<header class="hero">
+<div>
+<h1>Diksha</h1>
+<p class="role">Data analyst in India</p>
+<p class="lead">I turn raw datasets into dashboards and reports that help teams make decisions. Python, SQL, Excel and Streamlit, from cleaning to deployed apps.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn" href="mailto:diksharanga5@gmail.com">Email me</a></div>
+</div>
+<figure class="chart" style="margin:0" aria-label="Illustrative customer retention curve">
+<svg viewBox="0 0 320 200" role="img" aria-hidden="true">
+<g stroke="var(--line)" stroke-width="1"><line x1="30" y1="20" x2="310" y2="20"/><line x1="30" y1="70" x2="310" y2="70"/><line x1="30" y1="120" x2="310" y2="120"/><line x1="30" y1="170" x2="310" y2="170" stroke="var(--ink)"/></g>
+<path class="curve" d="M30 25 C70 30 80 90 120 105 S190 135 230 140 S290 146 310 147" fill="none" stroke="var(--accent)" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="120" cy="105" r="6" fill="var(--hi)"/>
+<text x="130" y="92" font-size="11" fill="var(--ink)" font-family="IBM Plex Sans,sans-serif">Where customers drop off</text>
+<text x="30" y="188" font-size="10" fill="var(--muted)" font-family="IBM Plex Sans,sans-serif">Months since signup</text>
+</svg>
+<p>Illustration of a retention curve, the kind of pattern I analyse in my churn project.</p>
+</figure>
+</header>
+</div>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+
+<article class="proj">
+<div><a class="btn p" href="https://churn-app-fptk.onrender.com" target="_blank" rel="noopener">Live demo</a></div>
+<div>
+<h3>Churn &amp; retention analysis</h3>
+<p class="stack">SQL, Python, FastAPI</p>
+<ul>
+<li>Analysed churn and retention patterns to support data-driven retention decisions.</li>
+<li>Calculated customer-level and segment-level metrics in SQL for cohort and churn analysis.</li>
+<li>Cleaned and explored the data in Python before analysis.</li>
+<li>Built and deployed a FastAPI app that shows churn trends and customer segments, with retention recommendations.</li>
+</ul>
+</div>
+</article>
+
+<article class="proj">
+<div><a class="btn p" href="https://insurance-charges-dashboard1.onrender.com" target="_blank" rel="noopener">Live demo</a></div>
+<div>
+<h3>Insurance charges data analysis</h3>
+<p class="stack">Python, Pandas, Excel, SQL, Streamlit</p>
+<ul>
+<li>Cleaned and preprocessed raw data with Python, Pandas and Excel.</li>
+<li>Ran EDA to find trends, patterns and outliers in insurance charges.</li>
+<li>Wrote SQL for extraction, filtering, aggregation and multi-table analysis.</li>
+<li>Deployed an interactive Streamlit dashboard of KPIs for stakeholders.</li>
+</ul>
+</div>
+</article>
+
+<article class="proj">
+<div><a class="btn p" href="https://language-dashboard1-1.onrender.com" target="_blank" rel="noopener">Live demo</a></div>
+<div>
+<h3>Programming language recommendation app</h3>
+<p class="stack">Python, Pandas, Streamlit, Plotly</p>
+<ul>
+<li>Built an interactive app that recommends programming languages based on user preferences.</li>
+<li>Explored the dataset with Pandas and made Plotly charts for patterns and trends.</li>
+<li>Designed filters for difficulty, popularity, use case, paradigm, typing and release year.</li>
+<li>Deployed a responsive front end with Streamlit and CSS.</li>
+</ul>
+</div>
+</article>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Programming and analysis</h3><ul class="tags"><li>Python</li><li>Pandas</li><li>NumPy</li><li>Data cleaning</li><li>Data wrangling</li><li>Preprocessing</li><li>EDA</li><li>Statistical analysis</li></ul></div>
+<div><h3>Databases and SQL</h3><ul class="tags"><li>SQL</li><li>MySQL</li><li>Joins</li><li>GROUP BY &amp; HAVING</li><li>Subqueries</li><li>CTEs</li><li>Window functions</li><li>Query optimization</li></ul></div>
+<div><h3>Visualization and BI</h3><ul class="tags"><li>Streamlit</li><li>Plotly</li><li>Excel pivot tables</li><li>VLOOKUP</li><li>Interactive dashboards</li><li>Data storytelling</li></ul></div>
+<div><h3>Tools</h3><ul class="tags"><li>Jupyter Notebook</li><li>VS Code</li><li>MySQL Workbench</li><li>Git &amp; GitHub</li><li>FastAPI</li><li>Render</li></ul></div>
+</div>
+<p class="muted" style="margin-top:24px">Also: analytical thinking, problem solving, business insight, critical thinking, attention to detail.</p>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education and training</h2>
+<div class="two">
+<div><h3>Bachelor of Computer Applications</h3><p class="muted">Indira Gandhi National Open University (IGNOU), 2024 to 2027</p>
+<h3>DBSA: Data Base System Assistant</h3><p class="muted">Government ITI course, completed</p></div>
+<div><h3>BCG X Data Science Job Simulation</h3><p class="muted">Forage, completed September 2026</p></div>
+</div>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+<h2>Let’s talk</h2>
+<p class="lead">Open to data analyst and business intelligence roles.</p>
+<div class="btns"><a class="btn p" href="mailto:diksharanga5@gmail.com">diksharanga5@gmail.com</a><a class="btn" href="https://github.com/diksha451" target="_blank" rel="noopener">GitHub</a></div>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
